@@ -31,11 +31,6 @@ nav a{
 
 }
 
-.navegacion-home li :hover {
-    background-color: black;
-    transition: 2s;
-}
-
 .img-header { 
     margin-top: 20px;
     width: 30%;
@@ -572,6 +567,11 @@ li { font-size: 15px;
         list-style: none;
     }
 
+    .navegacion-home li :hover {
+        background-color: black;
+        transition: 2s;
+    }
+
     .contacto ul {
         right: 0;
         margin-top: 3%;
@@ -777,5 +777,6 @@ li { font-size: 15px;
     20%{margin-left: 0;}
     25% {margin-left: -100%;}
     45% {margin-left: -100%;}
-    
+    50% {margin-left: -200%;}
+    75% {margin-left: -200%;}
 }
