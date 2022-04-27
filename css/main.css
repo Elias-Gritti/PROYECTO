@@ -7,6 +7,10 @@ body {
     text-align: center;
 }
 
+img {
+    width: 100%;
+}
+
 h1{color: #0d0d49;
     font-size: 27px;}
 h2{font-size: 25px;}
