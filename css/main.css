@@ -51,6 +51,11 @@ nav a{
     width: 300px;
 }
 
+.contenedor {
+    max-width: 1024px;
+    margin: auto;
+}
+
  .form {
     display: grid;
     padding-top: 20px;
@@ -142,6 +147,10 @@ header {
 }
 
 
+.contenedor-productos {
+    max-width: 1024px;
+    margin: auto;
+}
 
 
 /*Empiezo a modificar la seccion Contactos para hacerla mobile first*/
@@ -191,7 +200,10 @@ li { font-size: 15px;
 .mapa-contacto{
     width: 100%;
 }
-
+.contenedor-contacto {
+    max-width: 1024px;
+    margin: auto;
+}
 /*Empiezo a modificar la seccion Nosotros para hacerla mobile first*/
 * { 
     box-sizing: border-box;
@@ -237,7 +249,10 @@ li { font-size: 15px;
     transition: 2s;
 }
 
-
+.contenedor-nosotros {
+    max-width: 1024px;
+    margin: auto;
+}
 /*Empiezo a modificar la seccion Nuestros Servicios para hacerla mobile first*/
 
 * { 
@@ -307,6 +322,11 @@ li { font-size: 15px;
 
 .boton-wpp {
     margin-left: auto;
+}
+
+.contenedor-servicios {
+    max-width: 1024px;
+    margin: auto;
 }
 
 /*Empiezo a aplicar media queries*/
