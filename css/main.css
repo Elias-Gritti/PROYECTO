@@ -22,17 +22,8 @@ header {
     flex-wrap: nowrap;
 }
 
-nav .bg {
-    background-color: #0d0d49;
-}
-
-
-nav a{
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
-
+nav a {
+    color: #ffffff !important;
 }
 
 .img-header { 
@@ -40,14 +31,6 @@ nav a{
     width: 30%;
     border-radius: 50%;
     border: solid #000000;
-}
-
-.navegacion-home {
-    color: #ffffff;
-    background-color: #0d0d49;
-    width: 100%;
-    height: auto;
-    align-items: center;
 }
 
 .main-img {
@@ -161,20 +144,6 @@ header {
     border: solid #000000;
 }
 
-.navegacion-productos {
-    color: #ffffff;
-    background-color: #0d0d49;
-    width: 100%;
-    height: auto;
-    align-items: center;
-}
-
-.navegacion-productos li :hover {
-    background-color: black;
-    transition: 2s;
-}
-
-
 .contenedor-productos {
     max-width: 1400px;
     margin: auto;
@@ -216,18 +185,6 @@ li { font-size: 15px;
     width: 40%;
     border-radius: 50%;
     border: solid #000000;
-}
-
-.navegacion-contacto {
-    color: #ffffff;
-    background-color: #0d0d49;
-    width: 100%;   
-    height: auto;
-    align-items: center;
-}
-.navegacion-contacto li :hover {
-    background-color: black;
-    transition: 2s;
 }
 
 .mapa-contacto{
@@ -274,18 +231,6 @@ li { font-size: 15px;
     border: solid #000000;
 }
 
-.navegacion-nosotros {
-    color: #ffffff;
-    background-color: #0d0d49;
-    width: 100%;   
-    height: auto;
-    align-items: center;
-    
-}
-.navegacion-nosotros li :hover {
-    background-color: black;
-    transition: 2s;
-}
 
 .img-local-fuera {
     width: 100%;
@@ -804,6 +749,7 @@ li { font-size: 15px;
         right: 0;
         margin-top: 5.5%;
         display: flex;
+        flex-direction: row;
     }
 
     .contacto-servicios li {
