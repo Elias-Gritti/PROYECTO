@@ -1,0 +1,19 @@
+$color-primary: #0d0d49;
+main {
+    .main-img {
+        height: 300px;
+        width: 300px;
+    }
+    .form {
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+
+        .boton-enviar {
+            background-color: $color-primary;
+            color: #ffffff;
+        }
+    }
+
+}

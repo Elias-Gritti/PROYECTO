@@ -54,7 +54,8 @@ nav a {
     display: grid;
     padding-top: 20px;
     padding-bottom: 20px;
- }
+    width: 50%;
+}
 
  .boton-enviar {
      background-color: #0d0d49;
@@ -93,6 +94,10 @@ nav a {
 
 .boton-wpp img{
     width: 7%;
+}
+
+.container-fluid {
+    padding-top: 25px;
 }
 /*Empiezo a modificar la seccion productos para hacerla mobile first*/
 
