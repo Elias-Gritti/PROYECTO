@@ -1,3 +1,21 @@
+@import "./index/header";
+@import "./index/nav";
+@import "./index/main";
+@import "./index/footer";
+@import "./productos/header-prod";
+@import "./productos/nav-prod";
+@import "./productos/main-prod";
+@import "./productos/footer-prod";
+@import "./contacto/header-cont";
+@import "./contacto/nav-cont";
+@import "./contacto/main-cont";
+@import "./nosotros/header-nos";
+@import "./nosotros/nav-nos";
+@import "./nosotros/main-nos";
+@import "./servicios/header-serv";
+@import "./servicios/nav-serv";
+@import "./servicios/main-serv";
+
 $color-primary: #0d0d49;
 
 * {
@@ -23,26 +41,6 @@ li { font-size: 15px;
     max-width: 1400px;
     margin: auto;
 }
-
-
-
-@import "_header";
-@import "_nav";
-@import "_main";
-@import "_footer";
-@import "_header-prod";
-@import "_nav-prod";
-@import "_main-prod";
-@import "_footer-prod";
-@import "_header-cont";
-@import "_nav-cont";
-@import "_main-cont";
-@import "_header-nos";
-@import "_nav-nos";
-@import "_main-nos";
-@import "_header-serv";
-@import "_nav-serv";
-@import "_main-serv";
 
 @keyframes cambio {
     0%{margin-left: 0;}

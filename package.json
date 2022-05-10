@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "–watch ./proyecto/scss/main.scss ./proyecto/css/main.css",
+    "build-css": "node sass --watch ./proyecto/scss/main.scss ./proyecto/css/main.css",
+    "compilar": "node-sass --watch scss/main.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
