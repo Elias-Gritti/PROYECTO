@@ -1,0 +1,59 @@
+$color-primary: #0d0d49;
+main {
+    .main-img {
+        height: 300px;
+        width: 300px;
+    }
+    .form {
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+
+        .boton-enviar {
+            background-color: $color-primary;
+            color: #ffffff;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            .main-img {
+                width: 560px;
+                height: 336px;
+                padding: 20px;
+            }
+
+            .main-text {
+                display: grid;
+                padding: 20px;
+            }
+
+            a {
+                font-weight: bold;
+                padding: 10px 20px;
+                border-radius: 20px;
+                border: 2px solid rgba(0, 0, 0, 0.5);
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+                background-color: #0d0d49;
+                color: #ffffff;
+            }
+
+            .parrafo {
+                padding: 30px;
+                font-weight: bold;
+            }
+
+            .marcas {
+                padding: 30px;
+            }
+        }
+        
+    }
+}

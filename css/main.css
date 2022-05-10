@@ -264,7 +264,7 @@ button img {
 }
 
 
-.img-local-fuera {
+.main-nosotros img {
     width: 100%;
 }
 
@@ -317,43 +317,6 @@ button img {
     flex-direction: column;
 }
 
-.navegacion-servicios {
-    color: #ffffff;
-    background-color: #0d0d49;
-    width: 100%;    
-    height: auto;
-    align-items: center;
-}
-
-.navegacion-contacto li :hover {
-    background-color: black;
-    transition: 2s;
-}
-
-#redes {
-    display: flex;
-    flex-direction: row;
-}
-
-#redes {
-    background-color: #0d0d49;
-    color: #ffffff;
-}
-
-.sociales{
-   display: inline;
-   display: flex;
-   flex-direction: row;
-}
-
-
-.sociales img{
-   width: 30%;
-}
-
-.boton-wpp {
-    margin-left: auto;
-}
 
 .contenedor-servicios {
     max-width: 1400px;
@@ -392,20 +355,7 @@ button img {
         display: flex;
         flex-direction: row;
     }
-
-    .navegacion-home {
-        color: #ffffff;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .navegacion-servicios li :hover {
-        background-color: black;
-        transition: 2s;
-    }
     
-
     .contenedor {
         max-width: 1400px;
         margin: auto;
@@ -447,13 +397,6 @@ button img {
         flex-direction: row;
     }
 
-    .navegacion-productos{
-        color: #ffffff;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
     .contenedor-productos {
         max-width: 1400px;
         margin: auto;
@@ -479,6 +422,7 @@ button img {
         left: 0;
         margin-top: 0;
     }
+
     .logo-contacto h1 {
         display: flex;
         text-align: center;
@@ -492,13 +436,6 @@ button img {
         right: 0%;
         display: flex;
         flex-direction: row;
-    }
-
-    .navegacion-contacto{
-        color: #ffffff;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
     }
 
     .contenedor-contacto {
@@ -539,13 +476,6 @@ button img {
         flex-direction: row;
     }
 
-    .navegacion-nosotros{
-        color: #ffffff;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
     .contenedor-nosotros {
         max-width: 1400px;
         margin: auto;
@@ -580,16 +510,6 @@ button img {
         display: flex;
         flex-direction: row;
     }
-
-    .navegacion-servicios{
-        color: #ffffff;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-
-
 }
 
 @media screen and (min-width: 1024px) {
