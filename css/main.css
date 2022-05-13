@@ -97,20 +97,20 @@ footer {
     justify-content: center; }
     footer .redes img {
       width: 40%; }
-    footer .redes .boton-wpp {
-      text-align: end;
-      padding-right: 20px;
-      position: fixed;
-      line-height: 75px;
-      bottom: 10%;
-      right: 0;
-      color: #ffffff;
-      border-radius: 50px;
-      font-size: 15px;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3, #008000, #0000ff, alpha);
-      z-index: 100%; }
-      footer .redes .boton-wpp img {
-        width: 7%; }
+  footer .boton-wpp {
+    text-align: end;
+    padding-right: 20px;
+    position: fixed;
+    line-height: 75px;
+    bottom: 10%;
+    right: 0;
+    color: #ffffff;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0);
+    z-index: 100%; }
+    footer .boton-wpp img {
+      width: 7%; }
   @media screen and (min-width: 768px) {
     footer .redes a {
       display: flex;
