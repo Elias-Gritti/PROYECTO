@@ -1,8 +1,10 @@
 $color-primary: #0d0d49;
+$color-secondary: #ffffff;
+
 
 footer{
     background-color: $color-primary;
-    color: #ffffff;
+    color: $color-secondary;
 
     .redes{
         padding: 0%;
@@ -21,7 +23,7 @@ footer{
         line-height: 75px;
         bottom: 10%;
         right: 0;
-        color: #ffffff;
+        color: $color-secondary;
         border-radius: 50px;
         font-size: 15px;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0);

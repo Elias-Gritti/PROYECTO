@@ -5,7 +5,6 @@
 @import "./productos/header-prod";
 @import "./productos/nav-prod";
 @import "./productos/main-prod";
-@import "./productos/footer-prod";
 @import "./contacto/header-cont";
 @import "./contacto/nav-cont";
 @import "./contacto/main-cont";
@@ -17,6 +16,8 @@
 @import "./servicios/main-serv";
 
 $color-primary: #0d0d49;
+$color-secondary: #ffffff;
+$padding: 10px;
 
 * {
     box-sizing: border-box;
@@ -31,7 +32,7 @@ body {
 h1{color: $color-primary;
     font-size: 27px;}
 h2{font-size: 25px;}
-h3 {font-size: 20px;}
+h3 {font-size: $padding*2;}
 p {font-size: 15px;}
 li { font-size: 15px;
     list-style: none;

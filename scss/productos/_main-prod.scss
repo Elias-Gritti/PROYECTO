@@ -1,55 +1,71 @@
+/*Aplico maps*/
+$widths: (
+    300: 300%,
+    100: 100%,
+    90: 90%,
+    80: 80%
+);
+
+
 .main-productos {
-    width: 100%;
+    /*Maps*/
+    width: map-get($widths, 100);
     margin: auto;
     overflow: hidden;
 
     ul {
-    display: flex;
-    padding: 0;
-    width: 300%;
+        /*Maps*/
+        display: flex;
+        padding: 0;
+        width: map-get($widths, 300);
 
-    animation: productos 20s infinite;
+        animation: productos 20s infinite;
     }
 
     li {
-    width: 100%;
-    list-style: none;
+        /*Maps*/
+        width: map-get($widths, 100);
+        list-style: none;
     }
 
     img {
-    width: 100%;
-    height: 80%;
+        /*Maps*/
+        width: map-get($widths , 100);
+        height: 80%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     main {
         .main-productos {
-            width: 100%;
+            /*Maps*/
+            width:map-get($widths, 100);
             margin: auto;
             overflow: hidden;
     
             ul {
                 display: flex;
                 padding: 0;
-                width: 300%;
+                /*Maps*/
+                width: map-get($widths, 300);
     
                 animation: productos 20s infinite;
             }
     
-            li {
-                width: 100%;
+            li {/*Maps*/
+                width: map-get($widths, 100);
                 list-style: none;
             }
     
             img {
-                width: 80%;
+                width: map-get($widths, 80);
                 height: 70%;
             }
         }
     
         .tabla-productos {
-            width: 90%;
+            /*Maps*/
+            width: map-get($widths, 90);
             display: grid;
             grid-auto-rows: 100px;
         }

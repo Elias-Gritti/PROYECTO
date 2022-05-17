@@ -1,4 +1,6 @@
 $color-primary: #0d0d49;
+$color-secondary: #ffffff;
+
 main {
     .main-img {
         height: 300px;
@@ -12,7 +14,7 @@ main {
 
         .boton-enviar {
             background-color: $color-primary;
-            color: #ffffff;
+            color: $color-secondary;
         }
     }
 }
@@ -45,13 +47,14 @@ main {
                 color: #ffffff;
             }
 
-            .parrafo {
-                padding: 30px;
-                font-weight: bold;
-            }
-
+            /*Uso extend*/
             .marcas {
                 padding: 30px;
+            }
+
+            .parrafo {
+                @extend .marcas;
+                font-weight: bold;
             }
         }
         

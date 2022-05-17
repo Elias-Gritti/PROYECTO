@@ -1,6 +1,8 @@
+$color-secondary: #ffffff;
+
 nav {
     a {
-        color: #ffffff !important;
+        color: $color-secondary !important;
     }
 
     button {
@@ -20,3 +22,4 @@ nav {
         padding-bottom: 20px;
     }
 }
+
