@@ -33,22 +33,4 @@ footer{
             width: 7%;
         }
     }
-
-    @media screen and (min-width: 768px) {
-        .redes {
-            a {
-                display: flex;
-                justify-content: space-around;
-            }
-            
-        }
-    }
-
-    @media screen and (min-width: 1024px) {
-        .redes {
-            padding: 0%;
-            display: flex;
-            justify-content: center;
-        }
-    }
 }

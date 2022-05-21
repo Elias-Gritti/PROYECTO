@@ -3,29 +3,3 @@
         width: 100%;
         }
 }
-
-@media screen and (min-width: 1024px) {
-    .slider {
-        width: 95%;
-        margin: auto;
-        overflow: hidden;
-
-        ul {
-            display: flex;
-            padding: 0;
-            width: 200%;
-
-            animation: cambio 20s infinite;
-        }
-
-        li {
-            width: 100%;
-            list-style: none;
-        }
-
-        img {
-            width: 80%;
-            height: 70%;
-        }
-    }
-}
