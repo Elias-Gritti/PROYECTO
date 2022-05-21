@@ -1,3 +1,26 @@
+$color-primary: #0d0d49;
+$color-secondary: #ffffff;
+
+main {
+    .main-img {
+        height: 300px;
+        width: 300px;
+    }
+    .form {
+        display: grid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 50%;
+
+        .boton-enviar {
+            background-color: $color-primary;
+            color: $color-secondary;
+        }
+    }
+}
+
+/*Main productos*/
+
 /*Aplico maps*/
 $widths: (
     300: 300%,
@@ -33,4 +56,18 @@ $widths: (
         width: map-get($widths , 100);
         height: 80%;
     }
+}
+
+/*Main contacto*/
+
+.mapa-contacto{
+    width: 100%;
+}
+
+/*Main nosotros*/
+
+.main-nosotros {
+    img {
+        width: 100%;
+        }
 }

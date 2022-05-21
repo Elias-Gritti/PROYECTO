@@ -1,19 +1,9 @@
-@import "./index/header";
-@import "./index/nav";
-@import "./index/main";
-@import "./index/footer";
-@import "./productos/header-prod";
-@import "./productos/nav-prod";
-@import "./productos/main-prod";
-@import "./contacto/header-cont";
-@import "./contacto/nav-cont";
-@import "./contacto/main-cont";
-@import "./nosotros/header-nos";
-@import "./nosotros/nav-nos";
-@import "./nosotros/main-nos";
-@import "./servicios/header-serv";
-@import "./servicios/nav-serv";
-@import "breakpoints.scss";
+@import "_header.scss";
+@import "_nav.scss";
+@import "_main.scss";
+@import "_footer.scss";
+@import "_boton-flotante.scss";
+@import "_breakpoints.scss";
 
 
 @keyframes cambio {

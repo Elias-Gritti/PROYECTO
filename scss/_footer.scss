@@ -1,0 +1,19 @@
+$color-primary: #0d0d49;
+$color-secondary: #ffffff;
+
+
+footer{
+    background-color: $color-primary;
+    color: $color-secondary;
+
+    .redes{
+        padding: 0%;
+       display: flex;
+       justify-content: center;
+
+       img {
+           width: 40%;
+       }
+    }
+
+}
