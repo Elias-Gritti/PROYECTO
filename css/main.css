@@ -27,105 +27,19 @@ li {
 .contenedor {
   max-width: 1400px;
   margin: auto; }
-  .contenedor header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; }
-    .contenedor header .img-header {
-      margin-top: 20px;
-      width: 30%;
-      border-radius: 50%;
-      border: solid #000000; }
 
-/*header productos*/
-* {
-  box-sizing: border-box; }
-
-.contenedor-productos {
-  font-family: "roboto", "sans serif";
-  margin: 0;
-  text-align: center;
-  max-width: 1400px;
-  margin: auto; }
-  .contenedor-productos header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; }
-    .contenedor-productos header .img-productos {
-      margin-top: 20px;
-      width: 40%;
-      border-radius: 50%;
-      border: solid #000000; }
-
-h1 {
-  color: #0d0d49;
-  font-size: 27px; }
-
-h2 {
-  font-size: 25px; }
-
-h3 {
-  font-size: 20px; }
-
-p {
-  font-size: 15px; }
-
-li {
-  font-size: 15px;
-  list-style: none; }
-
-/*Header contacto*/
-.header-contacto {
+header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; }
-  .header-contacto .contacto-contact ul {
-    display: flex;
-    flex-direction: column; }
-  .header-contacto .img-contacto {
+  header .img-header {
     margin-top: 20px;
-    width: 40%;
+    width: 30%;
     border-radius: 50%;
     border: solid #000000; }
-
-/*Header nosotros*/
-.contenedor-nosotros {
-  max-width: 1400px;
-  margin: auto; }
-  .contenedor-nosotros .header-nosotros {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; }
-    .contenedor-nosotros .header-nosotros .contacto-nosotros ul {
-      display: flex;
-      flex-direction: column; }
-    .contenedor-nosotros .header-nosotros .img-nosotros {
-      margin-top: 20px;
-      width: 40%;
-      border-radius: 50%;
-      border: solid #000000; }
-
-/*Header servicios*/
-.header-servicios {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap; }
-  .header-servicios .img-servicios {
-    margin-top: 20px;
-    width: 40%;
-    border-radius: 50%;
-    border: solid #000000; }
-  .header-servicios .contacto-servicios ul {
-    display: flex;
-    flex-direction: column; }
 
 nav a {
   color: #ffffff !important; }
-
-nav button img {
-  width: 30%;
-  height: 30%;
-  display: flex; }
 
 main .main-img {
   height: 300px;
@@ -170,6 +84,22 @@ main .form {
 .main-nosotros img {
   width: 100%; }
 
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden; }
+  .slider ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: cambio 20s infinite; }
+  .slider li {
+    width: 100%;
+    list-style: none; }
+  .slider img {
+    width: 80%;
+    height: 70%; }
+
 footer {
   background-color: #0d0d49;
   color: #ffffff; }
@@ -179,21 +109,6 @@ footer {
     justify-content: center; }
     footer .redes img {
       width: 40%; }
-
-.boton-wpp {
-  text-align: end;
-  padding-right: 20px;
-  position: fixed;
-  line-height: 75px;
-  bottom: 10%;
-  right: 0;
-  color: #ffffff;
-  border-radius: 50px;
-  font-size: 15px;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0);
-  z-index: 100%; }
-  .boton-wpp img {
-    width: 7%; }
 
 /*Empiezo a aplicar media queries*/
 /*Uso Mixin*/
@@ -418,6 +333,21 @@ footer {
     align-items: center;
     justify-content: space-around; } }
 
+.boton-wpp {
+  text-align: end;
+  padding-right: 20px;
+  position: fixed;
+  line-height: 75px;
+  bottom: 10%;
+  right: 0;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 15px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0);
+  z-index: 100%; }
+  .boton-wpp img {
+    width: 7%; }
+
 @keyframes cambio {
   0% {
     margin-left: 0; }
@@ -426,7 +356,7 @@ footer {
   25% {
     margin-left: -100%; }
   45% {
-    margin-left: -100%; } }
+    margin-left: -200%; } }
 
 @keyframes productos {
   0% {
