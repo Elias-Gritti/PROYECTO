@@ -1,16 +1,9 @@
-/*Empiezo a aplicar media queries*/
-
-/*Uso Mixin*/
-@mixin headerr {
-    display: flex;
-    flex-direction: row;
-}
-
 @media screen and (min-width: 768px) {
     header {
         .logo {
-            /*Mixin*/
-            @include headerr;
+            display: flex;
+            flex-direction: row;
+            
             .img-header {
             left: 0;
             margin-top: 0;
