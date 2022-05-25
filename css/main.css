@@ -41,11 +41,6 @@ header {
 nav a {
   color: #ffffff !important; }
 
-nav button img {
-  width: 30%;
-  height: 30%;
-  display: flex; }
-
 main .main-img {
   height: 300px;
   width: 300px; }
