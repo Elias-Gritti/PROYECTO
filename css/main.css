@@ -87,8 +87,7 @@ main .form {
 
 /*Main nosotros*/
 .main-nosotros img {
-  width: 80%;
-  padding-bottom: 20px; }
+  width: 100%; }
 
 .slider {
   width: 95%;
@@ -108,8 +107,7 @@ main .form {
 
 footer {
   background-color: #0d0d49;
-  color: #ffffff;
-  padding-top: 20px; }
+  color: #ffffff; }
   footer .redes {
     padding: 0%;
     display: flex;
@@ -117,8 +115,11 @@ footer {
     footer .redes img {
       width: 40%; }
 
+/*Empiezo a aplicar media queries*/
+/*Uso Mixin*/
 @media screen and (min-width: 768px) {
   header .logo {
+    /*Mixin*/
     display: flex;
     flex-direction: row; }
     header .logo .img-header {
